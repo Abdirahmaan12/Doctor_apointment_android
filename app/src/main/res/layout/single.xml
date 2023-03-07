@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:elevation="20dp"
+    android:layout_margin="5dp"
+    android:clickable="true"
+    android:background="@drawable/pick_background"
+    >
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="faraxan"
+            android:textSize="22sp"
+            android:layout_marginStart="10dp"
+
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/doctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr mohamed ali faarah"
+            android:textSize="20sp"
+            android:layout_marginStart="10dp"
+            android:textStyle="normal"/>
+
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:layout_marginStart="10dp"
+            android:textSize="22sp"
+            android:textStyle="normal"/>
+
+
+        <TextView
+            android:id="@+id/Aboot"
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="normal"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
